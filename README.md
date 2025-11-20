@@ -1,4 +1,4 @@
-# The Survey
+# TheUltimateTest
 
 ## English
 The Ultimate Test: A comprehensive survey to discover your inner self through MBTI, Zodiac, Numerology, and more. This interactive application provides detailed insights into your personality, elemental affinity, and even historical events associated with your birthdate.
