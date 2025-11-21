@@ -8,21 +8,21 @@ let questions = [];
 // Resultados Internacionalizados
 const resultsData = {
     pokemon: [
-        { name: 'Charizard', es: { type: 'Fuego/Volador', description: 'Poderoso y feroz, un líder nato' }, en: { type: 'Fire/Flying', description: 'Powerful and fierce, a born leader' }, pt: { type: 'Fogo/Voador', description: 'Poderoso e feroz, um líder nato' } },
-        { name: 'Blastoise', es: { type: 'Agua', description: 'Fuerte y protector, siempre confiable' }, en: { type: 'Water', description: 'Strong and protective, always reliable' }, pt: { type: 'Água', description: 'Forte e protetor, sempre confiável' } },
-        { name: 'Venusaur', es: { type: 'Planta/Veneno', description: 'Equilibrado y sabio, conectado con la naturaleza' }, en: { type: 'Grass/Poison', description: 'Balanced and wise, connected with nature' }, pt: { type: 'Grama/Venenoso', description: 'Equilibrado e sábio, conectado com a natureza' } },
-        { name: 'Pikachu', es: { type: 'Eléctrico', description: 'Energético y carismático, amigo de todos' }, en: { type: 'Electric', description: 'Energetic and charismatic, friend to all' }, pt: { type: 'Elétrico', description: 'Energético e carismático, amigo de todos' } },
-        { name: 'Mewtwo', es: { type: 'Psíquico', description: 'Misterioso y poderoso, pensador profundo' }, en: { type: 'Psychic', description: 'Mysterious and powerful, deep thinker' }, pt: { type: 'Psíquico', description: 'Misterioso e poderoso, pensador profundo' } },
-        { name: 'Dragonite', es: { type: 'Dragón/Volador', description: 'Noble y gentil, con gran fortaleza interior' }, en: { type: 'Dragon/Flying', description: 'Noble and gentle, with great inner strength' }, pt: { type: 'Dragão/Voador', description: 'Nobre e gentil, com grande força interior' } },
-        { name: 'Gengar', es: { type: 'Fantasma/Veneno', description: 'Travieso y astuto, lleno de sorpresas' }, en: { type: 'Ghost/Poison', description: 'Mischievous and cunning, full of surprises' }, pt: { type: 'Fantasma/Venenoso', description: 'Travesso e astuto, cheio de surpresas' } },
-        { name: 'Alakazam', es: { type: 'Psíquico', description: 'Inteligente y estratégico, maestro mental' }, en: { type: 'Psychic', description: 'Intelligent and strategic, mental master' }, pt: { type: 'Psíquico', description: 'Inteligente e estratégico, mestre mental' } },
-        { name: 'Machamp', es: { type: 'Lucha', description: 'Fuerte y determinado, nunca se rinde' }, en: { type: 'Fighting', description: 'Strong and determined, never gives up' }, pt: { type: 'Luta', description: 'Forte e determinado, nunca desiste' } },
-        { name: 'Lapras', es: { type: 'Agua/Hielo', description: 'Gentil y empático, sanador natural' }, en: { type: 'Water/Ice', description: 'Gentle and empathetic, natural healer' }, pt: { type: 'Água/Gelo', description: 'Gentil e empático, curador natural' } },
-        { name: 'Arcanine', es: { type: 'Fuego', description: 'Leal y valiente, protector incansable' }, en: { type: 'Fire', description: 'Loyal and brave, tireless protector' }, pt: { type: 'Fogo', description: 'Leal e corajoso, protetor incansável' } },
-        { name: 'Jolteon', es: { type: 'Eléctrico', description: 'Rápido y adaptable, siempre en movimiento' }, en: { type: 'Electric', description: 'Fast and adaptable, always on the move' }, pt: { type: 'Elétrico', description: 'Rápido e adaptável, sempre em movimento' } },
-        { name: 'Snorlax', es: { type: 'Normal', description: 'Relajado y paciente, disfruta la vida' }, en: { type: 'Normal', description: 'Relaxed and patient, enjoys life' }, pt: { type: 'Normal', description: 'Relaxado e paciente, aproveita a vida' } },
-        { name: 'Gyarados', es: { type: 'Agua/Volador', description: 'Intenso y apasionado, fuerza imparable' }, en: { type: 'Water/Flying', description: 'Intense and passionate, unstoppable force' }, pt: { type: 'Água/Voador', description: 'Intenso e apaixonado, força imparável' } },
-        { name: 'Articuno', es: { type: 'Hielo/Volador', description: 'Sereno y elegante, belleza gélida' }, en: { type: 'Ice/Flying', description: 'Serene and elegant, frozen beauty' }, pt: { type: 'Gelo/Voador', description: 'Sereno e elegante, beleza gélida' } }
+        { name: 'Charizard', pokeId: 6, es: { type: 'Fuego/Volador', description: 'Poderoso y feroz, un líder nato' }, en: { type: 'Fire/Flying', description: 'Powerful and fierce, a born leader' }, pt: { type: 'Fogo/Voador', description: 'Poderoso e feroz, um líder nato' } },
+        { name: 'Blastoise', pokeId: 9, es: { type: 'Agua', description: 'Fuerte y protector, siempre confiable' }, en: { type: 'Water', description: 'Strong and protective, always reliable' }, pt: { type: 'Água', description: 'Forte e protetor, sempre confiável' } },
+        { name: 'Venusaur', pokeId: 3, es: { type: 'Planta/Veneno', description: 'Equilibrado y sabio, conectado con la naturaleza' }, en: { type: 'Grass/Poison', description: 'Balanced and wise, connected with nature' }, pt: { type: 'Grama/Venenoso', description: 'Equilibrado e sábio, conectado com a natureza' } },
+        { name: 'Pikachu', pokeId: 25, es: { type: 'Eléctrico', description: 'Energético y carismático, amigo de todos' }, en: { type: 'Electric', description: 'Energetic and charismatic, friend to all' }, pt: { type: 'Elétrico', description: 'Energético e carismático, amigo de todos' } },
+        { name: 'Mewtwo', pokeId: 150, es: { type: 'Psíquico', description: 'Misterioso y poderoso, pensador profundo' }, en: { type: 'Psychic', description: 'Mysterious and powerful, deep thinker' }, pt: { type: 'Psíquico', description: 'Misterioso e poderoso, pensador profundo' } },
+        { name: 'Dragonite', pokeId: 149, es: { type: 'Dragón/Volador', description: 'Noble y gentil, con gran fortaleza interior' }, en: { type: 'Dragon/Flying', description: 'Noble and gentle, with great inner strength' }, pt: { type: 'Dragão/Voador', description: 'Nobre e gentil, com grande força interior' } },
+        { name: 'Gengar', pokeId: 94, es: { type: 'Fantasma/Veneno', description: 'Travieso y astuto, lleno de sorpresas' }, en: { type: 'Ghost/Poison', description: 'Mischievous and cunning, full of surprises' }, pt: { type: 'Fantasma/Venenoso', description: 'Travesso e astuto, cheio de surpresas' } },
+        { name: 'Alakazam', pokeId: 65, es: { type: 'Psíquico', description: 'Inteligente y estratégico, maestro mental' }, en: { type: 'Psychic', description: 'Intelligent and strategic, mental master' }, pt: { type: 'Psíquico', description: 'Inteligente e estratégico, mestre mental' } },
+        { name: 'Machamp', pokeId: 68, es: { type: 'Lucha', description: 'Fuerte y determinado, nunca se rinde' }, en: { type: 'Fighting', description: 'Strong and determined, never gives up' }, pt: { type: 'Luta', description: 'Forte e determinado, nunca desiste' } },
+        { name: 'Lapras', pokeId: 131, es: { type: 'Agua/Hielo', description: 'Gentil y empático, sanador natural' }, en: { type: 'Water/Ice', description: 'Gentle and empathetic, natural healer' }, pt: { type: 'Água/Gelo', description: 'Gentil e empático, curador natural' } },
+        { name: 'Arcanine', pokeId: 59, es: { type: 'Fuego', description: 'Leal y valiente, protector incansable' }, en: { type: 'Fire', description: 'Loyal and brave, tireless protector' }, pt: { type: 'Fogo', description: 'Leal e corajoso, protetor incansável' } },
+        { name: 'Jolteon', pokeId: 135, es: { type: 'Eléctrico', description: 'Rápido y adaptable, siempre en movimiento' }, en: { type: 'Electric', description: 'Fast and adaptable, always on the move' }, pt: { type: 'Elétrico', description: 'Rápido e adaptável, sempre em movimento' } },
+        { name: 'Snorlax', pokeId: 143, es: { type: 'Normal', description: 'Relajado y paciente, disfruta la vida' }, en: { type: 'Normal', description: 'Relaxed and patient, enjoys life' }, pt: { type: 'Normal', description: 'Relaxado e paciente, aproveita a vida' } },
+        { name: 'Gyarados', pokeId: 130, es: { type: 'Agua/Volador', description: 'Intenso y apasionado, fuerza imparable' }, en: { type: 'Water/Flying', description: 'Intense and passionate, unstoppable force' }, pt: { type: 'Água/Voador', description: 'Intenso e apaixonado, força imparável' } },
+        { name: 'Articuno', pokeId: 144, es: { type: 'Hielo/Volador', description: 'Sereno y elegante, belleza gélida' }, en: { type: 'Ice/Flying', description: 'Serene and elegant, frozen beauty' }, pt: { type: 'Gelo/Voador', description: 'Sereno e elegante, beleza gélida' } }
     ],
     tarot: [
         { es: { name: 'El Mago', description: 'Manifestación y poder personal' }, en: { name: 'The Magician', description: 'Manifestation and personal power' }, pt: { name: 'O Mago', description: 'Manifestação e poder pessoal' } },
@@ -322,6 +322,15 @@ function prevQuestion() {
 }
 
 // ========================================
+// POKEAPI INTEGRATION
+// ========================================
+
+function getPokemonSprite(pokeId) {
+    // Return the direct URL to the Pokemon sprite from PokeAPI's GitHub repo
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokeId}.png`;
+}
+
+// ========================================
 // FUN STATISTICS
 // ========================================
 
@@ -611,9 +620,12 @@ function displayResults(results) {
 
     let cardsHTML = `
         <div class="result-card">
-            <div class="result-icon">🎮</div>
+            <div class="result-icon pokemon-sprite">
+                <img src="${getPokemonSprite(results.pokemon.pokeId)}" alt="${results.pokemon.name}" class="pokemon-img">
+            </div>
             <div class="result-title">${t.resultLabels.pokemon}</div>
             <div class="result-value">${results.pokemon.name}</div>
+            <div class="result-type">${pokemonData.type}</div>
             <div class="result-description">
                 ${pokemonData.description}
             </div>

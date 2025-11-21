@@ -621,6 +621,30 @@ h2 {
     image-rendering: pixelated;
 }
 
+/* Pokemon Sprite Styles */
+.pokemon-sprite {
+    background: transparent;
+    border: none;
+}
+
+.pokemon-img {
+    width: 96px;
+    height: 96px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    filter: drop-shadow(0 0 15px rgba(0, 255, 255, 0.5));
+}
+
+.result-type {
+    font-size: 0.7rem;
+    color: var(--color-accent-secondary);
+    margin: 0.3rem 0 0.5rem 0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+
 /* ========================================
    LANGUAGE SELECTOR
    ======================================== */
