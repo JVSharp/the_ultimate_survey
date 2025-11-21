@@ -357,7 +357,7 @@ async function getHistoricalEvent(birthdate) {
 
         // Use Wikipedia API to get events for that day
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 3000); // 3s timeout
+        const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
 
         const response = await fetch(
             `https://${lang}.wikipedia.org/api/rest_v1/feed/onthisday/events/${month}/${day}`,
@@ -775,9 +775,7 @@ function displayResults(results) {
     // Update title with user name
     document.querySelector('.results-title').textContent = `${t.resultsTitle} DE ${userName.toUpperCase()}`;
 
-    // Update button texts
-    document.querySelector('.share-buttons .pixel-button:nth-child(1) .button-text').textContent = t.shareButton;
-    document.querySelector('.share-buttons .pixel-button:nth-child(2) .button-text').textContent = t.downloadButton;
+    // Update restart button text
     document.querySelector('#results-screen > .pixel-border > .pixel-button .button-text').textContent = t.restartButton;
 }
 
