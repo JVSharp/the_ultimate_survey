@@ -840,7 +840,7 @@ h2 {
 /* Back Button */
 .back-button {
     position: absolute;
-    top: 20px;
+    bottom: 20px;
     left: 20px;
     background: var(--color-bg-secondary);
     border: 2px solid var(--color-accent-primary);
