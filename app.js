@@ -25,57 +25,57 @@ const resultsData = {
         { name: 'Articuno', pokeId: 144, es: { type: 'Hielo/Volador', description: 'Sereno y elegante, belleza gélida' }, en: { type: 'Ice/Flying', description: 'Serene and elegant, frozen beauty' }, pt: { type: 'Gelo/Voador', description: 'Sereno e elegante, beleza gélida' } }
     ],
     tarot: [
-        { es: { name: 'El Mago', description: 'Manifestación y poder personal' }, en: { name: 'The Magician', description: 'Manifestation and personal power' }, pt: { name: 'O Mago', description: 'Manifestação e poder pessoal' } },
-        { es: { name: 'La Sacerdotisa', description: 'Intuición y misterio' }, en: { name: 'The High Priestess', description: 'Intuition and mystery' }, pt: { name: 'A Sacerdotisa', description: 'Intuição e mistério' } },
-        { es: { name: 'La Emperatriz', description: 'Abundancia y creatividad' }, en: { name: 'The Empress', description: 'Abundance and creativity' }, pt: { name: 'A Imperatriz', description: 'Abundância e criatividade' } },
-        { es: { name: 'El Emperador', description: 'Autoridad y estructura' }, en: { name: 'The Emperor', description: 'Authority and structure' }, pt: { name: 'O Imperador', description: 'Autoridade e estrutura' } },
-        { es: { name: 'El Hierofante', description: 'Tradición y sabiduría' }, en: { name: 'The Hierophant', description: 'Tradition and wisdom' }, pt: { name: 'O Hierofante', description: 'Tradição e sabedoria' } },
-        { es: { name: 'Los Enamorados', description: 'Elección y armonía' }, en: { name: 'The Lovers', description: 'Choice and harmony' }, pt: { name: 'Os Enamorados', description: 'Escolha e harmonia' } },
-        { es: { name: 'El Carro', description: 'Voluntad y determinación' }, en: { name: 'The Chariot', description: 'Willpower and determination' }, pt: { name: 'O Carro', description: 'Vontade e determinação' } },
-        { es: { name: 'La Fuerza', description: 'Coraje y compasión' }, en: { name: 'Strength', description: 'Courage and compassion' }, pt: { name: 'A Força', description: 'Coragem e compaixão' } },
-        { es: { name: 'El Ermitaño', description: 'Introspección y guía interior' }, en: { name: 'The Hermit', description: 'Introspection and inner guidance' }, pt: { name: 'O Eremita', description: 'Introspecção e guia interior' } },
-        { es: { name: 'La Rueda de la Fortuna', description: 'Cambio y destino' }, en: { name: 'Wheel of Fortune', description: 'Change and destiny' }, pt: { name: 'A Roda da Fortuna', description: 'Mudança e destino' } },
-        { es: { name: 'La Justicia', description: 'Equilibrio y verdad' }, en: { name: 'Justice', description: 'Balance and truth' }, pt: { name: 'A Justiça', description: 'Equilíbrio e verdade' } },
-        { es: { name: 'El Colgado', description: 'Perspectiva y sacrificio' }, en: { name: 'The Hanged Man', description: 'Perspective and sacrifice' }, pt: { name: 'O Enforcado', description: 'Perspectiva e sacrifício' } },
-        { es: { name: 'La Muerte', description: 'Transformación y renacimiento' }, en: { name: 'Death', description: 'Transformation and rebirth' }, pt: { name: 'A Morte', description: 'Transformação e renascimento' } },
-        { es: { name: 'La Templanza', description: 'Moderación y paciencia' }, en: { name: 'Temperance', description: 'Moderation and patience' }, pt: { name: 'A Temperança', description: 'Moderação e paciência' } },
-        { es: { name: 'El Diablo', description: 'Tentación y liberación' }, en: { name: 'The Devil', description: 'Temptation and liberation' }, pt: { name: 'O Diabo', description: 'Tentação e libertação' } },
-        { es: { name: 'La Torre', description: 'Revelación y cambio súbito' }, en: { name: 'The Tower', description: 'Revelation and sudden change' }, pt: { name: 'A Torre', description: 'Revelação e mudança súbita' } },
-        { es: { name: 'La Estrella', description: 'Esperanza y renovación' }, en: { name: 'The Star', description: 'Hope and renewal' }, pt: { name: 'A Estrela', description: 'Esperança e renovação' } },
-        { es: { name: 'La Luna', description: 'Ilusión y subconsciente' }, en: { name: 'The Moon', description: 'Illusion and subconscious' }, pt: { name: 'A Lua', description: 'Ilusão e subconsciente' } },
-        { es: { name: 'El Sol', description: 'Alegría y éxito' }, en: { name: 'The Sun', description: 'Joy and success' }, pt: { name: 'O Sol', description: 'Alegria e sucesso' } },
-        { es: { name: 'El Juicio', description: 'Renacimiento y reflexión' }, en: { name: 'Judgement', description: 'Rebirth and reflection' }, pt: { name: 'O Julgamento', description: 'Renascimento e reflexão' } },
-        { es: { name: 'El Mundo', description: 'Completitud y logro' }, en: { name: 'The World', description: 'Completion and achievement' }, pt: { name: 'O Mundo', description: 'Completude e realização' } },
-        { es: { name: 'El Loco', description: 'Nuevos comienzos y aventura' }, en: { name: 'The Fool', description: 'New beginnings and adventure' }, pt: { name: 'O Louco', description: 'Novos começos e aventura' } }
+        { icon: '🎩', es: { name: 'El Mago', description: 'Manifestación y poder personal' }, en: { name: 'The Magician', description: 'Manifestation and personal power' }, pt: { name: 'O Mago', description: 'Manifestação e poder pessoal' } },
+        { icon: '🌙', es: { name: 'La Sacerdotisa', description: 'Intuición y misterio' }, en: { name: 'The High Priestess', description: 'Intuition and mystery' }, pt: { name: 'A Sacerdotisa', description: 'Intuição e mistério' } },
+        { icon: '👑', es: { name: 'La Emperatriz', description: 'Abundancia y creatividad' }, en: { name: 'The Empress', description: 'Abundance and creativity' }, pt: { name: 'A Imperatriz', description: 'Abundância e criatividade' } },
+        { icon: '⚜️', es: { name: 'El Emperador', description: 'Autoridad y estructura' }, en: { name: 'The Emperor', description: 'Authority and structure' }, pt: { name: 'O Imperador', description: 'Autoridade e estrutura' } },
+        { icon: '📿', es: { name: 'El Hierofante', description: 'Tradición y sabiduría' }, en: { name: 'The Hierophant', description: 'Tradition and wisdom' }, pt: { name: 'O Hierofante', description: 'Tradição e sabedoria' } },
+        { icon: '💕', es: { name: 'Los Enamorados', description: 'Elección y armonía' }, en: { name: 'The Lovers', description: 'Choice and harmony' }, pt: { name: 'Os Enamorados', description: 'Escolha e harmonia' } },
+        { icon: '🏇', es: { name: 'El Carro', description: 'Voluntad y determinación' }, en: { name: 'The Chariot', description: 'Willpower and determination' }, pt: { name: 'O Carro', description: 'Vontade e determinação' } },
+        { icon: '🦁', es: { name: 'La Fuerza', description: 'Coraje y compasión' }, en: { name: 'Strength', description: 'Courage and compassion' }, pt: { name: 'A Força', description: 'Coragem e compaixão' } },
+        { icon: '🕯️', es: { name: 'El Ermitaño', description: 'Introspección y guía interior' }, en: { name: 'The Hermit', description: 'Introspection and inner guidance' }, pt: { name: 'O Eremita', description: 'Introspecção e guia interior' } },
+        { icon: '☸️', es: { name: 'La Rueda de la Fortuna', description: 'Cambio y destino' }, en: { name: 'Wheel of Fortune', description: 'Change and destiny' }, pt: { name: 'A Roda da Fortuna', description: 'Mudança e destino' } },
+        { icon: '⚖️', es: { name: 'La Justicia', description: 'Equilibrio y verdad' }, en: { name: 'Justice', description: 'Balance and truth' }, pt: { name: 'A Justiça', description: 'Equilíbrio e verdade' } },
+        { icon: '🙃', es: { name: 'El Colgado', description: 'Perspectiva y sacrificio' }, en: { name: 'The Hanged Man', description: 'Perspective and sacrifice' }, pt: { name: 'O Enforcado', description: 'Perspectiva e sacrifício' } },
+        { icon: '💀', es: { name: 'La Muerte', description: 'Transformación y renacimiento' }, en: { name: 'Death', description: 'Transformation and rebirth' }, pt: { name: 'A Morte', description: 'Transformação e renascimento' } },
+        { icon: '🍷', es: { name: 'La Templanza', description: 'Moderación y paciencia' }, en: { name: 'Temperance', description: 'Moderation and patience' }, pt: { name: 'A Temperança', description: 'Moderação e paciência' } },
+        { icon: '😈', es: { name: 'El Diablo', description: 'Tentación y liberación' }, en: { name: 'The Devil', description: 'Temptation and liberation' }, pt: { name: 'O Diabo', description: 'Tentação e libertação' } },
+        { icon: '🗼', es: { name: 'La Torre', description: 'Revelación y cambio súbito' }, en: { name: 'The Tower', description: 'Revelation and sudden change' }, pt: { name: 'A Torre', description: 'Revelação e mudança súbita' } },
+        { icon: '⭐', es: { name: 'La Estrella', description: 'Esperanza y renovación' }, en: { name: 'The Star', description: 'Hope and renewal' }, pt: { name: 'A Estrella', description: 'Esperança e renovação' } },
+        { icon: '🌕', es: { name: 'La Luna', description: 'Ilusión y subconsciente' }, en: { name: 'The Moon', description: 'Illusion and subconscious' }, pt: { name: 'A Lua', description: 'Ilusão e subconsciente' } },
+        { icon: '☀️', es: { name: 'El Sol', description: 'Alegría y éxito' }, en: { name: 'The Sun', description: 'Joy and success' }, pt: { name: 'O Sol', description: 'Alegria e sucesso' } },
+        { icon: '📯', es: { name: 'El Juicio', description: 'Renacimiento y reflexión' }, en: { name: 'Judgement', description: 'Rebirth and reflection' }, pt: { name: 'O Julgamento', description: 'Renascimento e reflexão' } },
+        { icon: '🌍', es: { name: 'El Mundo', description: 'Completitud y logro' }, en: { name: 'The World', description: 'Completion and achievement' }, pt: { name: 'O Mundo', description: 'Completude e realização' } },
+        { icon: '🃏', es: { name: 'El Loco', description: 'Nuevos comienzos y aventura' }, en: { name: 'The Fool', description: 'New beginnings and adventure' }, pt: { name: 'O Louco', description: 'Novos começos e aventura' } }
     ],
     elements: [
-        { es: { name: 'Fuego', description: 'Pasión, energía y transformación' }, en: { name: 'Fire', description: 'Passion, energy and transformation' }, pt: { name: 'Fogo', description: 'Paixão, energia e transformação' } },
-        { es: { name: 'Agua', description: 'Emoción, intuición y fluidez' }, en: { name: 'Water', description: 'Emotion, intuition and fluidity' }, pt: { name: 'Água', description: 'Emoção, intuição e fluidez' } },
-        { es: { name: 'Tierra', description: 'Estabilidad, práctica y crecimiento' }, en: { name: 'Earth', description: 'Stability, practice and growth' }, pt: { name: 'Terra', description: 'Estabilidade, prática e crescimento' } },
-        { es: { name: 'Aire', description: 'Intelecto, comunicación y libertad' }, en: { name: 'Air', description: 'Intellect, communication and freedom' }, pt: { name: 'Ar', description: 'Intelecto, comunicação e liberdade' } },
-        { es: { name: 'Éter', description: 'Espíritu, conexión y trascendencia' }, en: { name: 'Aether', description: 'Spirit, connection and transcendence' }, pt: { name: 'Éter', description: 'Espírito, conexão e transcendência' } }
+        { icon: '🔥', color: '#ff4500', es: { name: 'Fuego', description: 'Pasión, energía y transformación' }, en: { name: 'Fire', description: 'Passion, energy and transformation' }, pt: { name: 'Fogo', description: 'Paixão, energia e transformação' } },
+        { icon: '💧', color: '#1e90ff', es: { name: 'Agua', description: 'Emoción, intuición y fluidez' }, en: { name: 'Water', description: 'Emotion, intuition and fluidity' }, pt: { name: 'Água', description: 'Emoção, intuição e fluidez' } },
+        { icon: '🌿', color: '#228b22', es: { name: 'Tierra', description: 'Estabilidad, práctica y crecimiento' }, en: { name: 'Earth', description: 'Stability, practice and growth' }, pt: { name: 'Terra', description: 'Estabilidade, prática e crescimento' } },
+        { icon: '💨', color: '#87ceeb', es: { name: 'Aire', description: 'Intelecto, comunicación y libertad' }, en: { name: 'Air', description: 'Intellect, communication and freedom' }, pt: { name: 'Ar', description: 'Intelecto, comunicação e liberdade' } },
+        { icon: '✨', color: '#9370db', es: { name: 'Éter', description: 'Espíritu, conexión y trascendencia' }, en: { name: 'Aether', description: 'Spirit, connection and transcendence' }, pt: { name: 'Éter', description: 'Espírito, conexão e transcendência' } }
     ],
     auraColors: [
-        { es: { name: 'Aura Roja', description: 'Energía vital, pasión y acción' }, en: { name: 'Red Aura', description: 'Vital energy, passion and action' }, pt: { name: 'Aura Vermelha', description: 'Energia vital, paixão e ação' } },
-        { es: { name: 'Aura Azul', description: 'Calma, comunicación y verdad' }, en: { name: 'Blue Aura', description: 'Calm, communication and truth' }, pt: { name: 'Aura Azul', description: 'Calma, comunicação e verdade' } },
-        { es: { name: 'Aura Verde', description: 'Sanación, equilibrio y crecimiento' }, en: { name: 'Green Aura', description: 'Healing, balance and growth' }, pt: { name: 'Aura Verde', description: 'Cura, equilíbrio e crescimento' } },
-        { es: { name: 'Aura Amarilla', description: 'Alegría, creatividad y optimismo' }, en: { name: 'Yellow Aura', description: 'Joy, creativity and optimism' }, pt: { name: 'Aura Amarela', description: 'Alegria, criatividade e otimismo' } },
-        { es: { name: 'Aura Violeta', description: 'Espiritualidad, intuición y magia' }, en: { name: 'Violet Aura', description: 'Spirituality, intuition and magic' }, pt: { name: 'Aura Violeta', description: 'Espiritualidade, intuição e magia' } },
-        { es: { name: 'Aura Blanca', description: 'Pureza, protección y claridad' }, en: { name: 'White Aura', description: 'Purity, protection and clarity' }, pt: { name: 'Aura Branca', description: 'Pureza, proteção e clareza' } },
-        { es: { name: 'Aura Dorada', description: 'Sabiduría, iluminación y divinidad' }, en: { name: 'Golden Aura', description: 'Wisdom, enlightenment and divinity' }, pt: { name: 'Aura Dourada', description: 'Sabedoria, iluminação e divindade' } },
-        { es: { name: 'Aura Índigo', description: 'Percepción, visión y conocimiento' }, en: { name: 'Indigo Aura', description: 'Perception, vision and knowledge' }, pt: { name: 'Aura Índigo', description: 'Percepção, visão e conhecimento' } }
+        { color: '#ff0000', es: { name: 'Aura Roja', description: 'Energía vital, pasión y acción' }, en: { name: 'Red Aura', description: 'Vital energy, passion and action' }, pt: { name: 'Aura Vermelha', description: 'Energia vital, paixão e ação' } },
+        { color: '#0066ff', es: { name: 'Aura Azul', description: 'Calma, comunicación y verdad' }, en: { name: 'Blue Aura', description: 'Calm, communication and truth' }, pt: { name: 'Aura Azul', description: 'Calma, comunicação e verdade' } },
+        { color: '#00ff00', es: { name: 'Aura Verde', description: 'Sanación, equilibrio y crecimiento' }, en: { name: 'Green Aura', description: 'Healing, balance and growth' }, pt: { name: 'Aura Verde', description: 'Cura, equilíbrio e crescimento' } },
+        { color: '#ffff00', es: { name: 'Aura Amarilla', description: 'Alegría, creatividad y optimismo' }, en: { name: 'Yellow Aura', description: 'Joy, creativity and optimism' }, pt: { name: 'Aura Amarela', description: 'Alegria, criatividade e otimismo' } },
+        { color: '#9400d3', es: { name: 'Aura Violeta', description: 'Espiritualidad, intuición y magia' }, en: { name: 'Violet Aura', description: 'Spirituality, intuition and magic' }, pt: { name: 'Aura Violeta', description: 'Espiritualidade, intuição e magia' } },
+        { color: '#ffffff', es: { name: 'Aura Blanca', description: 'Pureza, protección y claridad' }, en: { name: 'White Aura', description: 'Purity, protection and clarity' }, pt: { name: 'Aura Branca', description: 'Pureza, proteção e clareza' } },
+        { color: '#ffd700', es: { name: 'Aura Dorada', description: 'Sabiduría, iluminación y divinidad' }, en: { name: 'Golden Aura', description: 'Wisdom, enlightenment and divinity' }, pt: { name: 'Aura Dourada', description: 'Sabedoria, iluminação e divindade' } },
+        { color: '#4b0082', es: { name: 'Aura Índigo', description: 'Percepción, visión y conocimiento' }, en: { name: 'Indigo Aura', description: 'Perception, vision and knowledge' }, pt: { name: 'Aura Índigo', description: 'Percepção, visão e conhecimento' } }
     ],
     rpgClasses: [
-        { es: { name: 'Guerrero', description: 'Valiente en batalla, protector del débil' }, en: { name: 'Warrior', description: 'Brave in battle, protector of the weak' }, pt: { name: 'Guerreiro', description: 'Corajoso na batalha, protetor dos fracos' } },
-        { es: { name: 'Mago', description: 'Maestro de las artes arcanas' }, en: { name: 'Mage', description: 'Master of the arcane arts' }, pt: { name: 'Mago', description: 'Mestre das artes arcanas' } },
-        { es: { name: 'Arquero', description: 'Preciso y ágil, cazador experto' }, en: { name: 'Archer', description: 'Precise and agile, expert hunter' }, pt: { name: 'Arqueiro', description: 'Preciso e ágil, caçador experiente' } },
-        { es: { name: 'Sanador', description: 'Portador de luz y vida' }, en: { name: 'Healer', description: 'Bearer of light and life' }, pt: { name: 'Curandeiro', description: 'Portador de luz e vida' } },
-        { es: { name: 'Ladrón', description: 'Astuto y sigiloso, maestro de sombras' }, en: { name: 'Rogue', description: 'Cunning and stealthy, master of shadows' }, pt: { name: 'Ladino', description: 'Astuto e furtivo, mestre das sombras' } },
-        { es: { name: 'Paladín', description: 'Campeón de la justicia y el honor' }, en: { name: 'Paladin', description: 'Champion of justice and honor' }, pt: { name: 'Paladino', description: 'Campeão da justiça e honra' } },
-        { es: { name: 'Druida', description: 'Guardián de la naturaleza' }, en: { name: 'Druid', description: 'Guardian of nature' }, pt: { name: 'Druida', description: 'Guardião da natureza' } },
-        { es: { name: 'Nigromante', description: 'Maestro de la vida y la muerte' }, en: { name: 'Necromancer', description: 'Master of life and death' }, pt: { name: 'Necromante', description: 'Mestre da vida e da morte' } },
-        { es: { name: 'Bardo', description: 'Artista y encantador de corazones' }, en: { name: 'Bard', description: 'Artist and charmer of hearts' }, pt: { name: 'Bardo', description: 'Artista e encantador de corações' } },
-        { es: { name: 'Monje', description: 'Disciplinado maestro del cuerpo y mente' }, en: { name: 'Monk', description: 'Disciplined master of body and mind' }, pt: { name: 'Monge', description: 'Mestre disciplinado do corpo e da mente' } }
+        { icon: '⚔️', es: { name: 'Guerrero', description: 'Valiente en batalla, protector del débil' }, en: { name: 'Warrior', description: 'Brave in battle, protector of the weak' }, pt: { name: 'Guerreiro', description: 'Corajoso na batalha, protetor dos fracos' } },
+        { icon: '🔮', es: { name: 'Mago', description: 'Maestro de las artes arcanas' }, en: { name: 'Mage', description: 'Master of the arcane arts' }, pt: { name: 'Mago', description: 'Mestre das artes arcanas' } },
+        { icon: '🏹', es: { name: 'Arquero', description: 'Preciso y ágil, cazador experto' }, en: { name: 'Archer', description: 'Precise and agile, expert hunter' }, pt: { name: 'Arqueiro', description: 'Preciso e ágil, caçador experiente' } },
+        { icon: '✨', es: { name: 'Sanador', description: 'Portador de luz y vida' }, en: { name: 'Healer', description: 'Bearer of light and life' }, pt: { name: 'Curandeiro', description: 'Portador de luz e vida' } },
+        { icon: '🗡️', es: { name: 'Ladrón', description: 'Astuto y sigiloso, maestro de sombras' }, en: { name: 'Rogue', description: 'Cunning and stealthy, master of shadows' }, pt: { name: 'Ladino', description: 'Astuto e furtivo, mestre das sombras' } },
+        { icon: '🛡️', es: { name: 'Paladín', description: 'Campeón de la justicia y el honor' }, en: { name: 'Paladin', description: 'Champion of justice and honor' }, pt: { name: 'Paladino', description: 'Campeão da justiça e honra' } },
+        { icon: '🌳', es: { name: 'Druida', description: 'Guardián de la naturaleza' }, en: { name: 'Druid', description: 'Guardian of nature' }, pt: { name: 'Druida', description: 'Guardião da natureza' } },
+        { icon: '💀', es: { name: 'Nigromante', description: 'Maestro de la vida y la muerte' }, en: { name: 'Necromancer', description: 'Master of life and death' }, pt: { name: 'Necromante', description: 'Mestre da vida e da morte' } },
+        { icon: '🎵', es: { name: 'Bardo', description: 'Artista y encantador de corazones' }, en: { name: 'Bard', description: 'Artist and charmer of hearts' }, pt: { name: 'Bardo', description: 'Artista e encantador de corações' } },
+        { icon: '🥋', es: { name: 'Monje', description: 'Disciplinado maestro del cuerpo y mente' }, en: { name: 'Monk', description: 'Disciplined master of body and mind' }, pt: { name: 'Monge', description: 'Mestre disciplinado do corpo e da mente' } }
     ]
 };
 
@@ -632,7 +632,7 @@ function displayResults(results) {
         </div>
 
         <div class="result-card">
-            <div class="result-icon">🔮</div>
+            <div class="result-icon">${results.tarot.icon}</div>
             <div class="result-title">${t.resultLabels.tarot}</div>
             <div class="result-value">${tarotData.name}</div>
             <div class="result-description">
@@ -641,7 +641,7 @@ function displayResults(results) {
         </div>
 
         <div class="result-card">
-            <div class="result-icon">⚡</div>
+            <div class="result-icon" style="font-size: 4rem; color: ${results.element.color}">${results.element.icon}</div>
             <div class="result-title">${t.resultLabels.element}</div>
             <div class="result-value">${elementData.name}</div>
             <div class="result-description">
@@ -650,16 +650,18 @@ function displayResults(results) {
         </div>
 
         <div class="result-card">
-            <div class="result-icon">✨</div>
+            <div class="result-icon aura-glow" style="background: radial-gradient(circle, ${results.aura.color}44, transparent 70%)">
+                <div class="aura-circle" style="background: ${results.aura.color}; box-shadow: 0 0 30px ${results.aura.color}"></div>
+            </div>
             <div class="result-title">${t.resultLabels.aura}</div>
-            <div class="result-value" style="color: ${results.aura.color || '#fff'}">${auraData.name}</div>
+            <div class="result-value" style="color: ${results.aura.color}">${auraData.name}</div>
             <div class="result-description">
                 ${auraData.description}
             </div>
         </div>
 
         <div class="result-card">
-            <div class="result-icon">⚔️</div>
+            <div class="result-icon">${results.rpgClass.icon}</div>
             <div class="result-title">${t.resultLabels.rpgClass}</div>
             <div class="result-value">${rpgData.name}</div>
             <div class="result-description">
